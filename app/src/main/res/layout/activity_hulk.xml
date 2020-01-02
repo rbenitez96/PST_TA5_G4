@@ -40,7 +40,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="52dp"
-        android:text="Creador: Stan Lee \n Interpretado por: Bill Bixby(1977) \n Lou Ferrigno (1982) \n Eric Bana (2003) \n Edward Norton (2008) \n Mark Ruffalo (2012-presente) \n  Editorial Marvel Comics \n \n  Hulk (llamado La Masa en muchas de las traducciones al español) es un personaje ficticio, que aparece en los cómics estadounidenses publicados por la editorial Marvel Comics."
+        android:text="Creador: Stan Lee \n Interpretado por: Bill Bixby(1977) \n Lou Ferrigno (1982) \n Eric Bana (2003) \n Edward Norton (2008) \n Mark Ruffalo (2012-presente) \n  Editorial Marvel Comics \n \n  Hulk (llamado La Masa en muchas de las traducciones al español) es un personaje ficticio, que aparece en los cómics estadounidenses publicados por la editorial Marvel  Comics."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
