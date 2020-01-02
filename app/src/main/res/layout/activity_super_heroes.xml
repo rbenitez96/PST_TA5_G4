@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuperHeroes">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Personajes/Peliculas"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TableLayout
+        android:layout_width="358dp"
+        android:layout_height="452dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgBtnHulk"
+                android:layout_width="148dp"
+                android:layout_height="match_parent"
+                android:onClick="pagina_Hulk"
+                android:paddingTop="2px"
+                app:srcCompat="@drawable/hulk"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="382dp" />
+
+            <ImageButton
+                android:id="@+id/imgBtndeadpool"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:onClick="pagina_Deadpool"
+                android:paddingTop="2px"
+                app:srcCompat="@drawable/deadpool2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgBtnThor"
+                android:layout_width="wrap_content"
+                android:layout_height="116dp"
+                android:layout_marginTop="5px"
+                android:onClick="pagina_Thor"
+                android:paddingTop="2px"
+                app:srcCompat="@drawable/thor" />
+
+            <ImageButton
+                android:id="@+id/imgBtnIronman"
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:onClick="pagina_Ironman3"
+                android:paddingTop="2px"
+                app:srcCompat="@drawable/ironman3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgBtnSpiderman"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:layout_marginTop="5px"
+                android:onClick="pagina_Spiderman"
+                app:srcCompat="@drawable/spiderman_homecoming" />
+
+            <ImageButton
+                android:id="@+id/imgBtnDoctorstrange"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:onClick="pagina_DocStrange"
+                app:srcCompat="@drawable/doctorstrange" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="51dp" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Bienvenido"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
