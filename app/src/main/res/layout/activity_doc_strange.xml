@@ -33,4 +33,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/doctorstrange" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="260dp"
+        android:layout_height="412dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="32dp"
+        android:text="Creadores: Stan Lee y Steve Ditko \n Interpretado por: Pteter Hooten(1978) \n Benedict Cumberbatch (2016-presente) \n  Editorial Marvel Comics \n \n El doctor Stephen Vincent Strange, más conocido como Doctor Strange en Hispanoamérica, o en algunas traducciones como Doctor Centella, y Doctor Extraño1​ en España —donde se le cambia también el nombre a Stephen Extraño—, es un superhéroe ficticio que aparece en cómics estadounidenses publicados por Marvel Comics."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

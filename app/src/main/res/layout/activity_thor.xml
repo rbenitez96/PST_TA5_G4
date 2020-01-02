@@ -33,4 +33,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/thor" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="312dp"
+        android:layout_height="406dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:text="Creador(es) Stan Lee, Larry Lieber y Jack Kirby, basándose en el dios Thor de la mitología nórdica \n Interpretado por	Eric Allan Kramer (1988) \n Chris Hemsworth (2011-presente) \n Editorial Marvel Comics. \n \n  Thor (Thor Odinson) es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
