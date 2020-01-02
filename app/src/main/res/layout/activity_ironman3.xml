@@ -40,7 +40,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginTop="36dp"
-        android:text="Creador(es):  Stan Lee, Larry Lieber & Don Heck & Jack Kirby \nInterpretado por: Robert Downey, Jr. (2008-2019) \nEditorial	Marvel Comics \n \n Iron Man (también conocido en español como el Hombre de Hierro) es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics."
+        android:text="Creador(es):  Stan Lee, Larry Lieber y Don Heck y Jack Kirby \nInterpretado por: Robert Downey, Jr. (2008-2019) \nEditorial	Marvel Comics \n \n Iron Man (también conocido en español como el Hombre de Hierro) es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
