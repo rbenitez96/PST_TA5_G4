@@ -33,4 +33,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/spiderman_homecoming" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="175dp"
+        android:text="Spider-Man es un superhéroe ficticio creado por los escritores y editores Stan Lee y Steve Ditko. /n Con las habilidades de las arañas, el genio de la ciencia Peter Parker se balancea por encima de todo como Spider-Man, el campeón disfrazado de los inocentes que vive y lucha con la sabiduría de “¡Con gran poder, viene una gran responsabilidad!”"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
